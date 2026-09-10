@@ -4,16 +4,16 @@ plugins {
 }
 
 group = "com.github.gowthambharathn"
-version = "1.0.0"
+version = "1.0.1"
 
 publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.gowthambharathn"
-            artifactId = "Orbit"
-            version = "1.0.2"
+            artifactId = "NewNeuralEngine"
+            version = "1.0.1"
 
-            artifact(file("orbit-release.aar"))
+            artifact(file("production-release.aar"))
 
             pom {
                 name.set("Orbit")
