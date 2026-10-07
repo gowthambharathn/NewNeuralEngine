@@ -4,14 +4,14 @@ plugins {
 }
 
 group = "com.github.gowthambharathn"
-version = "1.0.3"
+version = "1.0.4"
 
 publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.gowthambharathn"
             artifactId = "NewNeuralEngine"
-            version = "1.0.3"
+            version = "1.0.4"
 
             artifact(file("production-release.aar"))
 
